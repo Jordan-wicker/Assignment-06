@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box; }
+
+img {
+  width: 100%;
+  display: block; }
+
+body {
+  font-family: Helvetica, sans-serif; }
+
+.column-container {
+  display: inline-block;
+  font-size: medium; }
+
+#app-container {
+  max-width: 100%;
+  font-size: 0;
+  background-image: url("../images/river-flow.jpeg");
+  height: 100vh;
+  background-size: cover;
+  margin: 0 auto; }
+  #app-container .signup-container {
+    width: 44.2%;
+    height: 29%;
+    background-color: #D0D5D9;
+    position: relative;
+    top: 55%;
+    left: 50%; }
+    #app-container .signup-container .modal-image {
+      width: 44%; }
+    #app-container .signup-container .modal-signup {
+      font-size: small;
+      width: 40%;
+      vertical-align: top;
+      padding: 15px;
+      margin-left: 50px;
+      color: black;
+      text-align: center; }
+    #app-container .signup-container .modal-button {
+      width: 100%;
+      height: 45px;
+      text-align: center;
+      background-color: black;
+      color: white;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px; }
+    #app-container .signup-container p {
+      padding: 0; }
+
+#app-container2 {
+  max-width: 100%;
+  font-size: 0; }
+  #app-container2 .rsvp-container {
+    width: 100%;
+    position: relative; }
+    #app-container2 .rsvp-container .header-container {
+      width: 100%;
+      font-size: medium;
+      background-color: white; }
+      #app-container2 .rsvp-container .header-container .letter-container {
+        vertical-align: top;
+        width: 24%;
+        font-size: 80px;
+        font-family: fantansy; }
+        #app-container2 .rsvp-container .header-container .letter-container .letter-r {
+          margin-left: 0;
+          text-align: left; }
+        #app-container2 .rsvp-container .header-container .letter-container .letter-s {
+          text-align: center;
+          margin-left: 10px; }
+        #app-container2 .rsvp-container .header-container .letter-container .letter-v {
+          text-align: center;
+          margin-left: 10px; }
+        #app-container2 .rsvp-container .header-container .letter-container .letter-p {
+          text-align: right;
+          margin-right: 5px; }
+      #app-container2 .rsvp-container .header-container img {
+        max-width: 100%; }
+    #app-container2 .rsvp-container .shopping-bag-image {
+      position: absolute;
+      top: 40%;
+      left: 90%; }
+      #app-container2 .rsvp-container .shopping-bag-image img {
+        width: 50%; }
+    #app-container2 .rsvp-container .shop-container {
+      width: 15%;
+      height: 80px;
+      text-align: center;
+      background-color: black;
+      color: white;
+      position: absolute;
+      top: 95%;
+      left: 44%; }
+      #app-container2 .rsvp-container .shop-container p {
+        font-family: fantasy;
+        padding: 20px; }
+
+/*# sourceMappingURL=styles.css.map */
